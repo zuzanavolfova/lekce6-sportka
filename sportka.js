@@ -1,5 +1,5 @@
 // Udělej losování klasické Sportky
-// Máš osudí čísel od 1 do 48
+// Máš osudí čísel od 1 do 49
 // Náhodně z tohoto osudí vyber 7 čísel
 // Žádné číslo se nesmí v tahu opakovat
 // (je vyjmuté z osudí, takže už ho nemůžeš znovu vylosovat)
@@ -9,7 +9,7 @@
 
 let osudi = [];
 
-for (let i = 1; i <= 48; i = i + 1) {
+for (let i = 1; i <= 49; i = i + 1) {
     osudi.push(i);
 }
 
