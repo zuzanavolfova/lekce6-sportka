@@ -1,11 +1,12 @@
 // SPORTKA
 
-let osudi = [];
-let vyherniCisla = document.querySelector('#vyherni-cisla');
-let tazenaCisla = [];
+
 
 //naplním osudí
 function sportka() {
+    let osudi = [];
+    let vyherniCisla = document.querySelector('#vyherni-cisla');
+    let tazenaCisla = [];
     for (let i = 1; i <= 49; i = i + 1) {
         osudi.push(i);
     }
