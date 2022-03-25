@@ -22,8 +22,18 @@ function sportka() {
 
     //vypíšu do HTML
     for (let i = 0; i < tazenaCisla.length; i++) {
+
         vyherniCisla.innerHTML += '<span class="cislo">' + tazenaCisla[i] + '</span>';
     }
+    //prepsat vyherni cisla=
+    let historieTahu = document.querySelector('.historie-vyher');
+
+    historieTahu.innerHTML += tazenaCisla + '<br>';
+
+    //vynulovat tazena cisla
+    tazenaCisla.splice(0, tazenaCisla.length);
+    //vynulovat osudi
+    osudi.splice(0, osudi.length);
 
 
 }
