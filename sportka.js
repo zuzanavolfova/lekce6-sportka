@@ -24,4 +24,6 @@ function sportka() {
     for (let i = 0; i < tazenaCisla.length; i++) {
         vyherniCisla.innerHTML += '<span class="cislo">' + tazenaCisla[i] + '</span>';
     }
+
+
 }
