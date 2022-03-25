@@ -10,6 +10,7 @@ function sportka() {
     for (let i = 1; i <= 49; i = i + 1) {
         osudi.push(i);
     }
+    vyherniCisla.innerHTML = "";
 
     // z osudi vyberu 7 náhodných čísel
     for (let i = 0; i < 7; i++) {
